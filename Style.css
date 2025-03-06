@@ -1,0 +1,99 @@
+﻿body {
+    background-color:#F1E9D2;
+    margin: 0;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin : 100px;
+}
+
+td {
+    width: 170px;
+    height: 5px;
+    text-align: center;
+    vertical-align: central;
+    background-color: #f4e8b6;
+}
+.text {
+    width: 230px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: 'Franklin Gothic';
+}
+#prof {
+    width:60px;
+    margin: 3px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Franklin Gothic';
+    color:black;
+    text-decoration: none;
+}
+.day{
+    font-family: 'Franklin Gothic';
+    font-size: 12px;
+    width:50px;
+    text-decoration:none;
+    color:black;
+    
+
+}
+#day_box {
+    width: 60px;
+    background-color: #C2B280;
+}
+th{
+    background-color:burlywood;
+}
+#Tp{
+    background-color:#FFF8E7;
+}
+.rotated {
+    display:inline-block;
+    transform: rotate(-90deg);
+    font-size: 8px;
+    font-family: 'Franklin Gothic';
+    text-align:justify;
+    vertical-align:bottom;
+    margin-bottom:8px;
+    float:right;
+}
+a {
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: 'Franklin Gothic';
+}
+button {
+    background: linear-gradient(to right, #C2B280, burlywood); /* Gradient background */
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family:'Franklin Gothic';
+}
+.corners {
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+    .corners:hover {
+        outline: none;
+        border-color: #ffa463;
+        background-color: #FFF8E7;
+        transition: all 0.3s ease;
+    }
+    .corners:focus {
+        outline: none;
+        border-color: #ffa463;
+        background-color: #FFE4C4;
+    }
+    button:hover{
+        color:#EED9C4;
+    }
