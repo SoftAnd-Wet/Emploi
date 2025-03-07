@@ -68,8 +68,7 @@ a {
     font-family: 'Franklin Gothic';
 }
 button {
-    background: linear-gradient(to right, #C2B280, burlywood); /* Gradient background */
-    color: black;
+    background: linear-gradient(to right, #C2B280, burlywood); 
     border: none;
     padding: 10px 25px;
     font-size: 18px;
@@ -78,10 +77,13 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
     font-family:'Franklin Gothic';
+    border:solid;
+
 }
 .corners {
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border :solid;
 }
     .corners:hover {
         outline: none;
@@ -97,3 +99,27 @@ button {
     button:hover{
         color:#EED9C4;
     }
+#unique {
+    background: linear-gradient(to right,#BA8759, #A67B5B); /* Gradient background */
+
+    color: black;
+    border: none;
+    padding: 40px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Franklin Gothic';
+}
+#unique:hover{
+    color:white;
+}
+#uniquebody {
+    background-color: #C2B280;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
